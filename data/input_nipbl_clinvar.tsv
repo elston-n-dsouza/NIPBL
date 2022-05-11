@@ -1,0 +1,16 @@
+5	36876791	C	T	no_assertion_criteria_provided	Pathogenic/Likely_pathogenic
+5	36876801	GA	AT	no_assertion_criteria_provided	Likely_pathogenic
+5	36876823	TC	T	criteria_provided,_single_submitter	Likely_benign
+5	36876830	G	C	criteria_provided,_single_submitter	Uncertain_significance
+5	36876834	T	C	criteria_provided,_single_submitter	Uncertain_significance
+5	36876834	T	TC	criteria_provided,_single_submitter	Uncertain_significance
+5	36876848	C	T	criteria_provided,_single_submitter	Uncertain_significance
+5	36876879	G	A	criteria_provided,_single_submitter	Uncertain_significance
+5	36876920	C	T	criteria_provided,_single_submitter	Uncertain_significance
+5	36876937	CC	A	no_assertion_criteria_provided	Pathogenic
+5	36876938	C	A	criteria_provided,_single_submitter	Pathogenic
+5	36876946	T	A	criteria_provided,_single_submitter	Likely_benign
+5	36876951	C	T	criteria_provided,_single_submitter	Benign
+5	36876993	A	G	criteria_provided,_single_submitter	Uncertain_significance
+5	36877015	A	C	criteria_provided,_single_submitter	Benign
+5	36877098	A	AC	criteria_provided,_single_submitter	Uncertain_significance
