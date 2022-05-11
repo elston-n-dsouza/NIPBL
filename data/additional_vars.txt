@@ -1,0 +1,60 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v103.1
+## Output produced at 2022-05-06 15:13:27
+## Using cache in /well/whiffin/projects/vep/homo_sapiens/103_GRCh38
+## Using API version 103, DB version ?
+## ensembl-variation version 103.06320c4
+## ensembl version 103.4c8d44a
+## ensembl-io version 103.353f93a
+## ensembl-funcgen version 103.b53bef4
+## sift version sift5.2.2
+## ClinVar version 202008
+## dbSNP version 154
+## polyphen version 2.2.2
+## gencode version GENCODE 37
+## regbuild version 1.0
+## COSMIC version 92
+## gnomAD version r2.1
+## 1000genomes version phase3
+## genebuild version 2014-07
+## HGMD-PUBLIC version 20194
+## ESP version V2-SSA137
+## assembly version GRCh38.p13
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## CANONICAL : Indicates if transcript is canonical for this gene
+## MANE_SELECT : MANE Select (Matched Annotation from NCBI and EMBL-EBI) Transcript
+## MANE_PLUS_CLINICAL : MANE Plus Clinical (Matched Annotation from NCBI and EMBL-EBI) Transcript
+## existing_InFrame_oORFs : The number of existing inFrame overlapping ORFs (inFrame oORF) at the 5 prime UTR
+## existing_OutOfFrame_oORFs : The number of existing out-of-frame overlapping ORFs (OutOfFrame oORF) at the 5 prime UTR
+## existing_uORFs : The number of existing uORFs with a stop codon within the 5 prime UTR
+## five_prime_UTR_variant_annotation : Output the annotation of a given 5 prime UTR variant
+## five_prime_UTR_variant_consequence : Output the variant consequences of a given 5 prime UTR variant: uAUG_gained, uAUG_lost, uSTOP_lost or uFrameshift
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	IMPACT	DISTANCE	STRAND	FLAGS	CANONICAL	MANE_SELECT	MANE_PLUS_CLINICAL	existing_InFrame_oORFs	existing_OutOfFrame_oORFs	existing_uORFs	five_prime_UTR_variant_annotation	five_prime_UTR_variant_consequence
+5-36877164-C-T	5:36877164	T	ENSG00000164190	ENST00000282516	Transcript	5_prime_UTR_variant	396	-	-	-	-	-	MODIFIER	-	1	-	YES	NM_133433.4	-	0	0	5	uAUG_gained_CapDistanceToStart:394,uAUG_gained_DistanceToCDS:95,uAUG_gained_DistanceToStop:51,uAUG_gained_KozakContext:CAGATGC,uAUG_gained_KozakStrength:Weak,uAUG_gained_type:uORF	uAUG_gained
+5-36877164-C-T	5:36877164	T	ENSG00000164190	ENST00000448238	Transcript	5_prime_UTR_variant	375	-	-	-	-	-	MODIFIER	-	1	-	-	-	-	0	0	5	uAUG_gained_CapDistanceToStart:373,uAUG_gained_DistanceToCDS:95,uAUG_gained_DistanceToStop:51,uAUG_gained_KozakContext:CAGATGC,uAUG_gained_KozakStrength:Weak,uAUG_gained_type:uORF	uAUG_gained
+5-36877164-C-T	5:36877164	T	ENSG00000285967	ENST00000647750	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	507	-1	-	-	-	-	-	-	-	-	-
+5-36877164-C-T	5:36877164	T	ENSG00000285967	ENST00000647824	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	957	-1	-	-	-	-	-	-	-	-	-
+5-36877164-C-T	5:36877164	T	ENSG00000285967	ENST00000649921	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	464	-1	-	YES	-	-	-	-	-	-	-
+5-36877164-C-T	5:36877164	T	ENSG00000164190	ENST00000652901	Transcript	5_prime_UTR_variant	324	-	-	-	-	-	MODIFIER	-	1	-	-	-	-	0	0	5	uAUG_gained_CapDistanceToStart:322,uAUG_gained_DistanceToCDS:95,uAUG_gained_DistanceToStop:51,uAUG_gained_KozakContext:CAGATGC,uAUG_gained_KozakStrength:Weak,uAUG_gained_type:uORF	uAUG_gained
+5-36876936-GC-G	5:36876937	-	ENSG00000164190	ENST00000282516	Transcript	5_prime_UTR_variant	169	-	-	-	-	-	MODIFIER	-	1	-	YES	NM_133433.4	-	0	0	5	uFrameShift_Evidence:NA,uFrameShift_KozakContext:GCGATGC,uFrameShift_KozakStrength:Moderate,uFrameShift_alt_type:uORF,uFrameShift_alt_type_length:189,uFrameShift_ref_StartDistanceToCDS:324,uFrameShift_ref_type:uORF,uFrameShift_ref_type_length:15	uFrameShift
+5-36876936-GC-G	5:36876937	-	ENSG00000164190	ENST00000448238	Transcript	5_prime_UTR_variant	148	-	-	-	-	-	MODIFIER	-	1	-	-	-	-	0	0	5	uFrameShift_Evidence:NA,uFrameShift_KozakContext:GCGATGC,uFrameShift_KozakStrength:Moderate,uFrameShift_alt_type:uORF,uFrameShift_alt_type_length:189,uFrameShift_ref_StartDistanceToCDS:324,uFrameShift_ref_type:uORF,uFrameShift_ref_type_length:15	uFrameShift
+5-36876936-GC-G	5:36876937	-	ENSG00000285967	ENST00000647750	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	280	-1	-	-	-	-	-	-	-	-	-
+5-36876936-GC-G	5:36876937	-	ENSG00000285967	ENST00000647824	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	730	-1	-	-	-	-	-	-	-	-	-
+5-36876936-GC-G	5:36876937	-	ENSG00000285967	ENST00000649921	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	237	-1	-	YES	-	-	-	-	-	-	-
+5-36876936-GC-G	5:36876937	-	ENSG00000164190	ENST00000652901	Transcript	5_prime_UTR_variant	97	-	-	-	-	-	MODIFIER	-	1	-	-	-	-	0	0	5	uFrameShift_Evidence:NA,uFrameShift_KozakContext:GCGATGC,uFrameShift_KozakStrength:Moderate,uFrameShift_alt_type:uORF,uFrameShift_alt_type_length:189,uFrameShift_ref_StartDistanceToCDS:324,uFrameShift_ref_type:uORF,uFrameShift_ref_type_length:15	uFrameShift
